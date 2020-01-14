@@ -1,0 +1,1 @@
+export const SplugaLogo = require('../images/spluga-logo-white-02.png');
