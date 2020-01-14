@@ -1,0 +1,42 @@
+{
+  "name": "my-project",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "babel-loader": "^8.0.6",
+    "babel-preset-react-app": "^9.1.0",
+    "jest-styled-components": "^7.0.0",
+    "react": "^16.12.0",
+    "react-dom": "^16.10.2",
+    "react-scripts": "^3.3.0",
+    "styled-components": "^4.4.1",
+    "stylelint-config-styled-components": "^0.1.1",
+    "yarn": "^1.21.1",
+    "yarn-install": "^1.0.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.23",
+    "babel-plugin-styled-components": "^1.10.6"
+  }
+}
