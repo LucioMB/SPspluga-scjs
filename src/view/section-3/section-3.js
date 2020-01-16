@@ -54,26 +54,26 @@ const Logo = styled.a`
 function Section3() {
     return(
             <Container id="how-does-it-work">
-                    <h4 className="text-1-section-3">
-                        How does it work?
-                    </h4>
-                    <Text>
-                        Spluga is a software created by
-                        <a href="https://mondora.com/" target="_blank" rel="noopener noreferrer"> mOndOra </a>
-                        and
-                        <a href="http://numbersbelieve.com/" target="_blank" rel="noopener noreferrer"> NumbersBelieve </a>.
-                        <br />
-                        It’s based on the
-                        <a href="http://numbersbelieve.com/omnia" target="_blank" rel="noopener noreferrer"> OMNIA </a>
-                        platform, Simply connect to the platform and start creating 
-                        <br />
-                        your team and OKRs!
-                    </Text>    
-                    <Logo>
-                        <a href="http://numbersbelieve.com/" target="_blank" rel="noopener noreferrer"><img src={NumbersBelieve} alt="numbers-believe" /></a>
-                        <a href="https://mondora.com/" target="_blank" rel="noopener noreferrer"><img src={Mondora} alt="mondora" /></a>
-                        <a href="http://numbersbelieve.com/omnia" target="_blank" rel="noopener noreferrer"><img src={Omnia} alt="omnia" /></a>
-                    </Logo>
+                <h4 className="text-1-section-3">
+                    How does it work?
+                </h4>
+                <Text>
+                    Spluga is a software created by
+                    <a href="https://mondora.com/" target="_blank" rel="noopener noreferrer"> mOndOra </a>
+                    and
+                    <a href="http://numbersbelieve.com/" target="_blank" rel="noopener noreferrer"> NumbersBelieve </a>.
+                    <br />
+                    It’s based on the
+                    <a href="http://numbersbelieve.com/omnia" target="_blank" rel="noopener noreferrer"> OMNIA </a>
+                    platform, Simply connect to the platform and start creating 
+                    <br />
+                    your team and OKRs!
+                </Text>    
+                <Logo>
+                    <a href="http://numbersbelieve.com/" target="_blank" rel="noopener noreferrer"><img src={NumbersBelieve} alt="numbers-believe" /></a>
+                    <a href="https://mondora.com/" target="_blank" rel="noopener noreferrer"><img src={Mondora} alt="mondora" /></a>
+                    <a href="http://numbersbelieve.com/omnia" target="_blank" rel="noopener noreferrer"><img src={Omnia} alt="omnia" /></a>
+                </Logo>
             </Container>
     )
 }
